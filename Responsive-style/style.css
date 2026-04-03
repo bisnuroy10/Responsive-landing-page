@@ -1,0 +1,10 @@
+@media (max-width : 768px){
+    body{
+        background-color: blueviolet;
+    }
+}
+@media (max-width : 576px) {
+    body{
+        background-color: chocolate;
+    }
+}
