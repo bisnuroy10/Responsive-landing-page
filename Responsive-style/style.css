@@ -1,10 +1,47 @@
 @media (max-width : 768px){
-    body{
-        background-color: blueviolet;
+    .logo{
+        height : 5vh;
+    }
+    .anchor{
+        gap : 12px;
+    }
+    .fa-solid{
+        font-size: 16px;
+    }
+    .main-nav{
+        align-items: center;
+    }
+    .btn-stroke{
+        font-size: 16px;
+        padding: 4px 16px;
+    }
+    .btn-fill{
+        font-size: 16px;
+        padding: 4px 16px;
+    }
+    .btn-anchor{
+        gap : 24px;
+    }
+    .icon-btn{
+        gap : 8px;
+    }
+    .anchor > a{
+        font-size: 12px;
+    }
+    .sm-icon{
+        display: none;
     }
 }
-@media (max-width : 576px) {
-    body{
-        background-color: chocolate;
+
+
+@media (max-width : 576px){
+    .btn-anchor, .anchor, .fa-solid, .fa-brands, .btn-stroke, .btn-fill{
+        display: none;
+    }
+    .sm-icon{
+        display: block;
+    }
+    .main-nav{
+        justify-content: space-around;
     }
 }

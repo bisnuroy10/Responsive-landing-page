@@ -13,3 +13,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Navber style from here */
+.nav{
+  width: 100vw;
+  background-color: bisque;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: bisque; */
+  padding: 10px 0px;
+}
+.logo{
+  height: 7vh;
+}
+.anchor a{
+  text-decoration: none;
+  color: black;
+}
+.anchor{
+  display: flex;
+  gap: 24px;
+}
+.fa-solid, .fa-brands{
+  font-size: 24px;
+}
+.btn-stroke{
+  font-size: 24px;
+  padding: 7px 24px;
+  font-size: 18px;
+  border : 2px solid green;
+  border-radius: 5px;
+}
+.btn-fill{
+  font-size: 24px;
+  padding: 7px 24px;
+  font-size: 18px; 
+  border-radius: 5px;
+  background-color: #179800;
+  border: 1px solid green;
+  color: white;
+  margin-left: 5px;
+}
+.btn-anchor{
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+.icon-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.sm-icon{
+  display: none;
+}
